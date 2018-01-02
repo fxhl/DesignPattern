@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using 简单工厂模式.Factory;
-using 简单工厂模式.Interface;
+using 简单工厂模式.工厂;
+using 简单工厂模式.接口;
 
 namespace 简单工厂模式
 {

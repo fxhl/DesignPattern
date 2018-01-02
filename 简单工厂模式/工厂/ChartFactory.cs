@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using 简单工厂模式.chart;
-using 简单工厂模式.Interface;
+using 简单工厂模式.产品;
+using 简单工厂模式.接口;
 
-namespace 简单工厂模式.Factory
+namespace 简单工厂模式.工厂
 {
     public class ChartFactory
     {
