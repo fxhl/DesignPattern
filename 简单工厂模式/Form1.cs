@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using 简单工厂模式.Factory;
+using 简单工厂模式.Interface;
 
 namespace 简单工厂模式
 {
@@ -15,6 +17,22 @@ namespace 简单工厂模式
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox1.SelectedIndex = 1;
+        }
+
+        /// <summary>
+        /// 查看报表
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnSelect_Click(object sender, EventArgs e)
+        {
+            IChart chart= ChartFactory.GetChart(comboBox1.SelectedIndex.ToString());
+            MessageBox.Show(chart.Display());
         }
     }
 }
