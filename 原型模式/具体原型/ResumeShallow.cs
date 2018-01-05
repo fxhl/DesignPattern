@@ -12,17 +12,13 @@ namespace 原型模式.具体原型
         private string _sex;
         private string _age;
         private WorkExperienceShallow _experience;//浅复制
-        private WorkExperienceDeep _workExperienceDeep;//深复制
 
         public ResumeShallow(string name)
         {
             _name = name;
             _experience = new WorkExperienceShallow();
         }
-        public ResumeShallow(WorkExperienceDeep workExperienceDeep)
-        {
-            _workExperienceDeep = workExperienceDeep;
-        }
+
         /// <summary>
         /// 设置个人信息
         /// </summary>
