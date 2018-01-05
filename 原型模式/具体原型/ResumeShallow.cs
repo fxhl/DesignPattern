@@ -15,7 +15,7 @@ namespace 原型模式.具体原型
 
         public ResumeShallow(string name)
         {
-            _name = name;
+            _name = name; 
             _experience = new WorkExperienceShallow();
         }
 
