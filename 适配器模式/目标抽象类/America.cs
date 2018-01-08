@@ -9,7 +9,7 @@ namespace 适配器模式.目标抽象类
 {
     class America 
     {
-        public void ChongDian()
+        public void Use()
         {
             MessageBox.Show("110V电器");
         }

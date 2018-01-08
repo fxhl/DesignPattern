@@ -10,7 +10,7 @@ namespace 适配器模式.适配者
 {
     public class China
     {
-        public virtual void ChongDian()
+        public virtual void Use()
         {
             MessageBox.Show("220V电器");
         }

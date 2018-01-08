@@ -11,9 +11,9 @@ namespace 适配器模式.适配器
     class AdapterAmerica:China
     {
         America america = new America();
-        public override void ChongDian()
+        public override void Use()
         {
-            america.ChongDian();
+            america.Use();
         }
     }
 }

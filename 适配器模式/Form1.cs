@@ -32,7 +32,7 @@ namespace 适配器模式
             {
                 china = new AdapterAmerica();
             }
-            china.ChongDian();
+            china.Use();
 
         }
     }
