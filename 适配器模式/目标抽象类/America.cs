@@ -7,11 +7,11 @@ using System.Windows.Forms;
 
 namespace 适配器模式.目标抽象类
 {
-    class IOS 
+    class America 
     {
         public void ChongDian()
         {
-            MessageBox.Show("苹果手机充电");
+            MessageBox.Show("110V电器");
         }
     }
 }

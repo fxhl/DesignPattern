@@ -53,9 +53,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="目标抽象类\IOS.cs" />
-    <Compile Include="适配器\AdapterIOS.cs" />
-    <Compile Include="适配者\Android.cs" />
+    <Compile Include="目标抽象类\America.cs" />
+    <Compile Include="适配器\AdapterAmerica.cs" />
+    <Compile Include="适配者\China.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -8,12 +8,12 @@ using 适配器模式.适配者;
 
 namespace 适配器模式.适配器
 {
-    class AdapterIOS:Android
+    class AdapterAmerica:China
     {
-        IOS ios = new IOS();
+        America america = new America();
         public override void ChongDian()
         {
-            ios.ChongDian();
+            america.ChongDian();
         }
     }
 }

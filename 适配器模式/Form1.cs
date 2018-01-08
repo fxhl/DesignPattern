@@ -23,16 +23,16 @@ namespace 适配器模式
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Android android = null;
+            China china  = null;
             if (comboBox1.SelectedIndex==0)
             {
-               android = new Android();
+                china = new China();
             }
             else if (comboBox1.SelectedIndex == 1)
             {
-                android = new AdapterIOS();
+                china = new AdapterAmerica();
             }
-            android.ChongDian();
+            china.ChongDian();
 
         }
     }
